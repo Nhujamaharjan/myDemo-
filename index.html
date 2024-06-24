@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Website</title>
+<style>
+    /* Global styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    /* Header styles */
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    /* Navigation styles */
+    nav {
+        background-color: #444;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    /* Main content styles */
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .main {
+        float: left;
+        width: 70%;
+        background: #fff;
+        padding: 10px;
+        box-sizing: border-box; /* Ensure padding doesn't add to width */
+    }
+
+    .sidebar {
+        float: left;
+        width: 30%;
+        background: #f0f0f0;
+        padding: 10px;
+        box-sizing: border-box; /* Ensure padding doesn't add to width */
+    }
+
+    /* Footer styles */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        clear: both; /* Clear floats */
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Simple Website</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <section class="main">
+        <h2>Main Content</h2>
+        <p>Welcome to our simple website! This is the main content area where you can add your content.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor auctor massa vel venenatis. Nullam convallis lectus justo, in vehicula lacus elementum at. Sed quis est eu arcu volutpat fringilla non sed dolor. Donec tempor urna non tellus molestie, et venenatis dolor aliquet. Aliquam sed congue risus, nec fermentum orci. Fusce mollis risus ac convallis sollicitudin.</p>
+    </section>
+
+    <aside class="sidebar">
+        <h2>Sidebar</h2>
+        <p>This is the sidebar where you can place additional information or links.</p>
+        <ul>
+            <li><a href="#">Sidebar Link 1</a></li>
+            <li><a href="#">Sidebar Link 2</a></li>
+            <li><a href="#">Sidebar Link 3</a></li>
+        </ul>
+    </aside>
+</div>
+
+<footer>
+    <p>&copy; 2024 Simple Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
